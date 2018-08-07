@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+width: 210px;
+height: 210px;
+border-radius: 10px;
+border: 2px solid #000000;
+background-image: -webkit-linear-gradient(top, #ffffff, #cccccc);
+display: flex;
+
+}
+.dice{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000000;
+    margin: 10px;
+}
+.box1{
+    flex-wrap: wrap;
+}
+.box2 {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box3 {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.box4 {
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box5 {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+.box6 {
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content:center;
+}
+.box7 {
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content:flex-end;
+}
+.box8 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box9{
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+.box10{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.box11{
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-end;
+ }
+.box12 :nth-child(2){
+    align-self: center;
+}
+.box13{
+    justify-content: space-between;
+}
+.box13 :last-child{
+    align-self: flex-end;
+}
+.box14{
+    justify-content: space-between;
+}
+.box14 :nth-child(2){
+    align-self:center;
+}
+.box14 :nth-child(3){
+    align-self: flex-end;
+}
+.box15{
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
+.box15 :nth-child(4){
+    align-self: flex-end;
+}
+.box16{
+
+    flex-wrap: wrap;
+    align-content:space-between;
+}
+.box16 .custom{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+.box17{
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: space-between;
+}
+.box18{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:space-between;
+    justify-content: space-between;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box19 .custom{
+    flex-basis:100%;
+    display: flex;
+
+}
+.box19 .custom:nth-child(2){
+    justify-content: center;
+}
+
+.box19 .custom:nth-child(3){
+    justify-content: space-between;
+}
+.box20{
+   flex-wrap: wrap;
+}
+
+
+
